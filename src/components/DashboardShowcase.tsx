@@ -207,10 +207,10 @@ export default function DashboardShowcase({ onOpenPortal }: DashboardShowcasePro
             <Sparkles className="w-3.5 h-3.5 text-emerald-600 animate-pulse" />
             <span>Encrypted Founder Workspace</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight text-[#0F172A] leading-[1.18]">
+          <h2 className="section-title text-center">
             One digital vault for all your statutory records.
           </h2>
-          <p className="mt-4 text-sm sm:text-base text-slate-600 font-normal leading-relaxed">
+          <p className="mt-4 section-subtitle text-center mx-auto">
             No more searching through lost WhatsApp messages or email threads. Every government certificate, filed challan, and CA-signed board resolution is organized, secured, and accessible 24/7.
           </p>
         </div>

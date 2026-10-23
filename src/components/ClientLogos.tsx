@@ -29,7 +29,7 @@ export default function ClientLogos() {
           <span className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest block mb-2">
             PROVEN TRACK RECORD ACROSS 28 STATES &amp; 8 UTS
           </span>
-          <h2 className="font-serif text-2xl sm:text-3xl font-normal text-[#0F172A] tracking-tight">
+          <h2 className="section-title text-center">
             Powering ambitious startups, MSMEs, and enterprises across India.
           </h2>
         </div>

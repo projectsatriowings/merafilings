@@ -80,7 +80,7 @@ export default function HeroSection({ onGetStarted, onSelectCategory }: HeroSect
         </div>
 
         {/* Main Editorial Serif Headline matching IndiaFilings exact font, weight, tracking, line-height */}
-        <h1 className="font-serif text-[32px] sm:text-[42px] md:text-[52px] lg:text-[60px] font-normal tracking-[-0.055em] text-[#0F172A] leading-[1.12] max-w-[1060px] mx-auto text-balance transition-all animate-in fade-in slide-in-from-top-3 duration-500">
+        <h1 className="hero-title max-w-[1060px] mx-auto text-center transition-all animate-in fade-in slide-in-from-top-3 duration-500">
           Modern Corporate Legal &amp; Compliance Services,{" "}
           <span className="font-normal text-slate-800">
             Thoughtfully Simplified.
@@ -88,7 +88,7 @@ export default function HeroSection({ onGetStarted, onSelectCategory }: HeroSect
         </h1>
 
         {/* Subtitle Value Proposition */}
-        <p className="mt-4 sm:mt-5 text-[14px] sm:text-[15.5px] md:text-[16px] text-slate-600 max-w-[740px] mx-auto font-sans leading-[1.62] font-normal animate-in fade-in slide-in-from-top-4 duration-500">
+        <p className="mt-4 sm:mt-5 section-subtitle max-w-[740px] mx-auto animate-in fade-in slide-in-from-top-4 duration-500">
           Incorporate your Private Limited company in 3 days, automate GST and MCA filings, protect trademarks, and maintain flawless statutory records — backed by certified Chartered Accountants.
         </p>
 

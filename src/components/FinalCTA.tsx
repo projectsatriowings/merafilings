@@ -34,10 +34,10 @@ export default function FinalCTA({ onFormSubmit }: FinalCTAProps) {
               <span className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-emerald-800 bg-emerald-50/80 border border-emerald-100/90 px-3 py-1 rounded-full">
                 Get Started in Minutes
               </span>
-              <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-slate-900 font-normal tracking-tight leading-[1.2]">
+              <h2 className="section-title">
                 Ready to launch or scale your business in India?
               </h2>
-              <p className="text-sm sm:text-base text-slate-600 leading-relaxed max-w-xl font-normal">
+              <p className="section-subtitle max-w-xl">
                 Speak with our experienced corporate legal &amp; tax advisors. Receive clear government fee schedules,
                 statutory document checklists, and a tailored timeline for your entity today.
               </p>

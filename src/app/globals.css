@@ -509,6 +509,38 @@ h3.font-serif.font-normal {
   font-weight: 400 !important;
 }
 
+/* Standardized Hero Title (H1) */
+.hero-title,
+h1.hero-title {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+  font-size: clamp(32px, 4.2vw, 54px) !important;
+  font-weight: 400 !important;
+  line-height: 1.12 !important;
+  letter-spacing: -0.05em !important;
+  color: #0F172A !important;
+  text-wrap: balance !important;
+}
+
+/* Standardized Section Title (H2) - 100% Identical Scale across All Sections */
+.section-title,
+h2.section-title {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+  font-size: clamp(26px, 2.5vw, 34px) !important;
+  font-weight: 400 !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.035em !important;
+  color: #0F172A !important;
+  text-wrap: balance !important;
+}
+
+.section-subtitle {
+  font-family: var(--font-inter), "Inter", ui-sans-serif, system-ui, sans-serif !important;
+  font-size: clamp(14px, 1.15vw, 16px) !important;
+  font-weight: 400 !important;
+  line-height: 1.65 !important;
+  color: #475467 !important;
+}
+
 /* Scoped Heading Weight & Color Hierarchy for Guide & Documentation Articles */
 article h1,
 .prose h1,

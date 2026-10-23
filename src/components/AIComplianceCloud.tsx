@@ -128,16 +128,16 @@ export default function AIComplianceCloud({ onExplore, onBookDemo }: AIComplianc
                 <BadgeCheck className="w-3.5 h-3.5 text-emerald-600" />
                 <span>CA &amp; CS Managed Advisory</span>
               </div>
-              <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight text-[#0F172A] leading-[1.18]">
+              <h2 className="section-title">
                 Complete corporate compliance, handled by seasoned professionals.
               </h2>
             </div>
 
-            <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
+            <p className="section-subtitle">
               No complicated software to learn, no confusing government portals to figure out. Our dedicated Chartered Accountants and Company Secretaries handle your taxes, company filings, and legal paperwork for you.
             </p>
 
-            <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
+            <p className="section-subtitle">
               Simply share your invoices and basic documents with your assigned account manager. We review, verify, and complete all statutory filings directly with government authorities on your behalf.
             </p>
 

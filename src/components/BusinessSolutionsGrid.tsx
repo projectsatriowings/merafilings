@@ -166,10 +166,10 @@ export default function BusinessSolutionsGrid({ onSelectSolution }: BusinessSolu
             <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
             Core Regulatory Capabilities
           </span>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-[#0F172A] tracking-tight leading-[1.18]">
+          <h2 className="section-title text-center">
             Comprehensive solutions for every stage of your business.
           </h2>
-          <p className="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
+          <p className="mt-3 section-subtitle text-center mx-auto">
             From your first name approval to ongoing statutory audits, our qualified legal and tax practitioners manage regulatory complexities so you can focus on building.
           </p>
         </div>

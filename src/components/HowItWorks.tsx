@@ -59,10 +59,10 @@ export default function HowItWorks({ onStartProcess }: HowItWorksProps) {
             <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
             Predictable Linear Workflow
           </span>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal text-[#0F172A] tracking-tight leading-[1.18]">
+          <h2 className="section-title text-center">
             How Merrafilings works for your business.
           </h2>
-          <p className="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
+          <p className="mt-3 section-subtitle text-center mx-auto">
             Eliminate weeks of confusion, physical notary queues, and bureaucratic back-and-forth. Experience India&apos;s most reliable end-to-end digital compliance experience.
           </p>
         </div>

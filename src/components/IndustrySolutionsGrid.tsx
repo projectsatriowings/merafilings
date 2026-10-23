@@ -170,10 +170,10 @@ export default function IndustrySolutionsGrid({ onSelectIndustry }: IndustrySolu
             <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
             <span>Tailored Industry Blueprints</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight text-[#0F172A] leading-[1.18]">
+          <h2 className="section-title text-center">
             Built for the specific regulatory demands of your sector.
           </h2>
-          <p className="mt-4 text-sm sm:text-base text-slate-600 font-normal leading-relaxed">
+          <p className="mt-4 section-subtitle text-center mx-auto">
             Every business vertical in India has unique statutory codes. Explore purpose-engineered compliance packs curated by domain-specialist Chartered Accountants.
           </p>
         </div>

@@ -91,10 +91,10 @@ export default function RegulatoryGazetteRadar({ onConsultUpdate }: RegulatoryGa
             <BellRing className="w-3.5 h-3.5 text-emerald-600 animate-bounce" />
             <span>Real-Time Regulatory Intelligence</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight text-[#0F172A] leading-[1.18]">
+          <h2 className="section-title text-center">
             Stay ahead of Indian regulatory shifts.
           </h2>
-          <p className="mt-4 text-sm sm:text-base text-slate-600 font-normal leading-relaxed">
+          <p className="mt-4 section-subtitle text-center mx-auto">
             Our in-house corporate legal research desk monitors daily gazette circulars from MCA, GSTN, CBDT, and IP India to protect your business from statutory surprise.
           </p>
         </div>

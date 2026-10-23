@@ -126,10 +126,10 @@ export default function ComplianceHealthCheck({ onBookAudit }: ComplianceHealthC
             <Sparkles className="w-3.5 h-3.5 text-emerald-600 animate-pulse" />
             <span>Interactive Risk Diagnostic</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight text-[#0F172A] leading-[1.18]">
+          <h2 className="section-title text-center">
             Assess your startup’s compliance score in 30 seconds.
           </h2>
-          <p className="mt-4 text-sm sm:text-base text-slate-600 font-normal leading-relaxed">
+          <p className="mt-4 section-subtitle text-center mx-auto">
             Select your operating compliances below to calculate your statutory risk score, identify hidden government penalty liabilities, and get instant CA remediation advice.
           </p>
         </div>

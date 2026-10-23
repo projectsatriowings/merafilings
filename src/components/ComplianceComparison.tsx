@@ -73,10 +73,10 @@ export default function ComplianceComparison({ onGetStarted }: ComplianceCompari
             <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
             <span>Capability Comparison</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-normal tracking-tight text-[#0F172A] leading-[1.18]">
+          <h2 className="section-title text-center">
             Why 45,000+ businesses upgrade to Merrafilings.
           </h2>
-          <p className="mt-4 text-sm sm:text-base text-slate-600 font-normal leading-relaxed">
+          <p className="mt-4 section-subtitle text-center mx-auto">
             See how our dedicated CA &amp; CS corporate care compares to traditional unorganized consultants and frustrating DIY government portals.
           </p>
         </div>

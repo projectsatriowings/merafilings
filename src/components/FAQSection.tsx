@@ -62,10 +62,10 @@ export default function FAQSection() {
               <HelpCircle className="w-3.5 h-3.5 text-emerald-600" />
               Frequently Asked Questions
             </span>
-            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl text-slate-900 font-normal tracking-tight">
+            <h2 className="section-title text-center">
               Clear answers to essential corporate questions
             </h2>
-            <p className="mt-2.5 text-sm sm:text-base text-slate-600 max-w-xl mx-auto">
+            <p className="mt-2.5 section-subtitle text-center mx-auto">
               Find transparent answers about incorporation, taxation, and annual statutory compliance.
             </p>
 

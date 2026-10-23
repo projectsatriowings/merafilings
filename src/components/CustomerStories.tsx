@@ -136,10 +136,10 @@ export default function CustomerStories() {
               <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
               Verified Client Journeys
             </span>
-            <h2 className="font-serif text-3xl sm:text-4xl text-slate-900 font-normal tracking-tight leading-snug">
+            <h2 className="section-title">
               How Indian founders scale with Merrafilings
             </h2>
-            <p className="mt-2.5 text-sm sm:text-base text-slate-600 font-normal leading-relaxed">
+            <p className="mt-2.5 section-subtitle">
               Read how fast-growing businesses simplify company formation, tax returns, and statutory filings without bureaucratic friction.
             </p>
           </div>
