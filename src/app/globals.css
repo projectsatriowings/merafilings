@@ -18,7 +18,7 @@
   --color-error: #B42318;
 
   --font-sans: var(--font-inter), "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-serif: var(--font-inter), "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: Georgia, "Times New Roman", Times, serif;
 }
 
 @theme {
@@ -38,7 +38,7 @@
   --color-error: var(--color-error);
 
   --font-sans: var(--font-inter), "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-serif: var(--font-inter), "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: Georgia, "Times New Roman", Times, serif;
 }
 
 * {
@@ -485,8 +485,23 @@ article b,
   font-weight: 600 !important;
 }
 
-/* Global Heading Weight & Color Hierarchy */
-h1.font-normal,
+/* IndiaFilings Signature Editorial Serif Stack & Exact Thickness (Font-Weight: 400) */
+.font-serif,
+h1.font-serif,
+h2.font-serif,
+h3.font-serif {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+}
+
+.font-serif.font-normal,
+.font-serif[class*="font-normal"],
+h1.font-serif.font-normal,
+h2.font-serif.font-normal,
+h3.font-serif.font-normal {
+  font-weight: 400 !important;
+}
+
+/* Scoped Heading Weight & Color Hierarchy for Guide & Documentation Articles */
 article h1,
 .prose h1,
 .guide-content h1 {
@@ -494,14 +509,13 @@ article h1,
   letter-spacing: -0.025em;
   line-height: 1.25;
 }
-h1:not([class*="text-white"]):not([class*="text-emerald-"]):not([class*="text-blue-"]):not([class*="text-transparent"]),
+h1:not(.font-serif):not([class*="text-white"]):not([class*="text-emerald-"]):not([class*="text-blue-"]):not([class*="text-transparent"]),
 article h1:not([class*="text-white"]):not([class*="text-emerald-"]):not([class*="text-blue-"]):not([class*="text-transparent"]),
 .prose h1:not([class*="text-white"]),
 .guide-content h1:not([class*="text-white"]) {
   color: #020617 !important;
 }
 
-h2.font-normal,
 article h2,
 .prose h2,
 .guide-content h2 {
@@ -509,14 +523,13 @@ article h2,
   letter-spacing: -0.02em;
   line-height: 1.35;
 }
-h2:not([class*="text-white"]):not([class*="text-emerald-"]):not([class*="text-blue-"]):not([class*="text-transparent"]):not([class*="text-amber-"]):not([class*="text-rose-"]),
+h2:not(.font-serif):not([class*="text-white"]):not([class*="text-emerald-"]):not([class*="text-blue-"]):not([class*="text-transparent"]):not([class*="text-amber-"]):not([class*="text-rose-"]),
 article h2:not([class*="text-white"]):not([class*="text-emerald-"]):not([class*="text-blue-"]),
 .prose h2:not([class*="text-white"]),
 .guide-content h2:not([class*="text-white"]) {
   color: #0F172A !important;
 }
 
-h3.font-normal,
 article h3,
 .prose h3,
 .guide-content h3 {
@@ -524,14 +537,13 @@ article h3,
   letter-spacing: -0.015em;
   line-height: 1.4;
 }
-h3:not([class*="text-white"]):not([class*="text-emerald-"]):not([class*="text-blue-"]):not([class*="text-purple-"]):not([class*="text-amber-"]):not([class*="text-rose-"]):not([class*="text-teal-"]),
+h3:not(.font-serif):not([class*="text-white"]):not([class*="text-emerald-"]):not([class*="text-blue-"]):not([class*="text-purple-"]):not([class*="text-amber-"]):not([class*="text-rose-"]):not([class*="text-teal-"]),
 article h3:not([class*="text-white"]):not([class*="text-emerald-"]):not([class*="text-blue-"]):not([class*="text-purple-"]):not([class*="text-amber-"]):not([class*="text-rose-"]),
 .prose h3:not([class*="text-white"]),
 .guide-content h3:not([class*="text-white"]) {
   color: #0F172A !important;
 }
 
-h4.font-normal,
 article h4,
 .prose h4,
 .guide-content h4 {
@@ -540,11 +552,11 @@ article h4,
 }
 
 /* Transform legacy pale indigo/purple heading classes to crisp slate-900 */
-h1.text-\[\#1F1646\],
-h2.text-\[\#1F1646\],
-h3.text-\[\#1F1646\],
-h4.text-\[\#1F1646\],
-[class*="text-[#1F1646]"]:is(h1, h2, h3, h4) {
+article h1.text-\[\#1F1646\],
+article h2.text-\[\#1F1646\],
+article h3.text-\[\#1F1646\],
+article h4.text-\[\#1F1646\],
+article [class*="text-[#1F1646]"]:is(h1, h2, h3, h4) {
   color: #0F172A !important;
   font-weight: 700 !important;
 }
