@@ -61,6 +61,7 @@ export default function ScrollRevealProvider({ children }: { children?: React.Re
             if (entry.isIntersecting) {
               const el = entry.target as HTMLElement;
               el.classList.add("is-revealed");
+              el.setAttribute("data-revealed", "true");
               activeObserver?.unobserve(el);
             }
           });
@@ -72,7 +73,7 @@ export default function ScrollRevealProvider({ children }: { children?: React.Re
       );
 
       uniqueTargets.forEach((target) => {
-        if (target.classList.contains("is-revealed")) {
+        if (target.classList.contains("is-revealed") || target.getAttribute("data-revealed") === "true") {
           return;
         }
         activeObserver?.observe(target);

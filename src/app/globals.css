@@ -355,7 +355,9 @@ a:not([class*="bg-clip-text"])[class*="from-[#5C3BFF]"] {
 
 /* Active Revealed State - Permanently visible even on hover & state updates */
 [data-revealed="true"],
-.is-revealed {
+.is-revealed,
+[data-reveal]:hover,
+[data-reveal]:focus-within {
   opacity: 1 !important;
 }
 
@@ -380,6 +382,12 @@ a:not([class*="bg-clip-text"])[class*="from-[#5C3BFF]"] {
 /* Ensure sticky elements are never trapped by transform containment */
 .sticky, [class*="sticky"] {
   will-change: auto !important;
+}
+
+/* Guarantee How It Works workflow cards and steps are always fully visible */
+#how-it-works,
+#how-it-works * {
+  opacity: 1;
 }
 
 /* Card inner icon pop animation upon scroll reveal */

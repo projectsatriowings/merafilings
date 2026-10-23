@@ -54,7 +54,7 @@ export default function HowItWorks({ onStartProcess }: HowItWorksProps) {
       <div className="w-full max-w-[1400px] 2xl:max-w-[1560px] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div data-reveal="down" className="text-center max-w-[780px] mx-auto mb-8 md:mb-10">
+        <div className="text-center max-w-[780px] mx-auto mb-8 md:mb-10">
           <span className="inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-emerald-800 bg-emerald-50/90 border border-emerald-100 px-3 py-1 rounded-full mb-3">
             <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
             Predictable Linear Workflow
@@ -68,7 +68,7 @@ export default function HowItWorks({ onStartProcess }: HowItWorksProps) {
         </div>
 
         {/* Linear Step Progression Indicator on Desktop */}
-        <div data-reveal="zoom" className="hidden lg:flex items-center justify-between max-w-4xl mx-auto mb-10 px-6">
+        <div className="hidden lg:flex items-center justify-between max-w-4xl mx-auto mb-10 px-6">
           {steps.map((st, idx) => (
             <React.Fragment key={idx}>
               <div
@@ -103,22 +103,21 @@ export default function HowItWorks({ onStartProcess }: HowItWorksProps) {
           ))}
         </div>
 
-        {/* 4 Steps Grid with Rich Multi-Directional Entrance Animations */}
+        {/* 4 Steps Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {steps.map((item, idx) => {
             const Icon = item.icon;
             const isCurrent = activeStep === idx;
-            const revealDir = idx === 0 ? "left" : idx === 3 ? "right" : "up";
             const staggerClass = `stagger-${idx + 1}`;
 
             return (
               <div
                 key={idx}
-                data-reveal={revealDir}
                 onMouseEnter={() => setActiveStep(idx)}
+                onClick={() => setActiveStep(idx)}
                 className={`bg-white rounded-2xl border p-6 sm:p-7 relative flex flex-col justify-between transition-all duration-300 cursor-pointer group ${staggerClass} ${
                   isCurrent
-                    ? "border-slate-400 shadow-xl -translate-y-1.5"
+                    ? "border-slate-900 shadow-xl -translate-y-1.5 ring-1 ring-slate-900/10"
                     : "border-slate-200/90 shadow-2xs hover:border-slate-300 hover:shadow-md hover:-translate-y-1"
                 }`}
               >
