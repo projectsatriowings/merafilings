@@ -263,11 +263,11 @@ export default function HowToStartProprietorshipPage() {
     >
       {/* Intro Overview */}
       <section className="space-y-4">
-        <p className="text-base sm:text-lg leading-relaxed text-slate-900 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           Starting your commercial journey as a solo entrepreneur offers unmatched operational
           agility, instant decision-making authority, and minimal initial capitalization.
         </p>
-        <p className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal">
+        <p className="text-[15px] sm:text-base text-slate-700 leading-relaxed font-normal">
           This definitive operational guide details every critical step—from brand clearance and state
           permits to tax registration, RBI-compliant current banking, and comprehensive risk mitigation.
         </p>
@@ -275,10 +275,10 @@ export default function HowToStartProprietorshipPage() {
 
       {/* Section 1: Overview */}
       <section className="space-y-4">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           1. Understanding the Proprietorship Model in India
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           A sole proprietorship is a business wholly owned, governed, and capitalized by a single individual.
           Because Indian law does not distinguish between the entrepreneur and their commercial entity, all
           revenues, contractual rights, and statutory duties accrue directly to the proprietor. This structure
@@ -299,7 +299,7 @@ export default function HowToStartProprietorshipPage() {
       <section className="space-y-5 pt-6 border-t border-slate-100">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div>
-            <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+            <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
               2. Six Practical Steps to Launch Your Proprietorship
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 font-normal mt-0.5">
@@ -368,10 +368,10 @@ export default function HowToStartProprietorshipPage() {
 
       {/* Section 3: Pros and Cons */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           3. Advantages and Disadvantages of a Sole Proprietorship
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           Before committing personal capital, carefully weigh the inherent strategic trade-offs of the sole proprietorship vehicle:
         </p>
 
@@ -420,7 +420,7 @@ export default function HowToStartProprietorshipPage() {
                     {item.type === "pro" ? "Advantage" : "Limitation"}
                   </span>
                 </div>
-                <p className="text-xs sm:text-[13px] text-slate-800 leading-relaxed font-normal">
+                <p className="text-xs sm:text-[13px] text-slate-600 leading-relaxed font-normal">
                   {item.desc}
                 </p>
               </div>
@@ -431,10 +431,10 @@ export default function HowToStartProprietorshipPage() {
 
       {/* Section 4: Blueprint for Success */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           4. Blueprint for Long-Term Proprietorship Success
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           Scaling a business without co-founders demands rigorous financial discipline and operational clarity. Implement these tested practices to safeguard and grow your business:
         </p>
 
@@ -464,7 +464,7 @@ export default function HowToStartProprietorshipPage() {
                     {card.title}
                   </h3>
                 </div>
-                <p className="text-xs sm:text-[13px] text-slate-800 leading-relaxed font-normal">
+                <p className="text-xs sm:text-[13px] text-slate-600 leading-relaxed font-normal">
                   {card.desc}
                 </p>
               </div>
@@ -508,11 +508,11 @@ export default function HowToStartProprietorshipPage() {
       <section className="space-y-4 pt-6 border-t border-slate-100">
         <div className="flex items-center gap-2">
           <HelpCircle className="w-5 h-5 text-blue-600" />
-          <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+          <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
             Frequently Asked Questions
           </h2>
         </div>
-        <p className="text-sm text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base text-slate-700 font-normal">
           Expert legal and tax answers on establishing and operating a sole proprietorship in India:
         </p>
 

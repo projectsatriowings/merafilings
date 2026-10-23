@@ -160,7 +160,7 @@ export default function TrademarkCertificateGuideLayout({
             </div>
 
             {/* Main Article Title */}
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-normal text-[#1F1646] tracking-tight mt-6 mb-6 leading-tight">
+            <h1 className="text-2xl sm:text-3xl lg:text-[34px] font-bold text-slate-950 tracking-tight mt-6 mb-6 leading-[1.25] sm:leading-tight">
               {title}
             </h1>
 

@@ -243,11 +243,11 @@ export default function UnderstandingProprietorshipBeginnersGuidePage() {
     >
       {/* Intro Overview */}
       <section className="space-y-4">
-        <p className="text-base sm:text-lg leading-relaxed text-slate-900 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           Selecting your first business structure is one of the most critical decisions you will
           make as a new founder.
         </p>
-        <p className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal">
+        <p className="text-[15px] sm:text-base text-slate-700 leading-relaxed font-normal">
           This comprehensive guide covers the essential principles of sole
           proprietorships in India—examining legal definitions, key characteristics, operational benefits,
           inherent liabilities, and a practical self-assessment matrix to help you choose with confidence.
@@ -256,10 +256,10 @@ export default function UnderstandingProprietorshipBeginnersGuidePage() {
 
       {/* Section 1: What is a Proprietorship? */}
       <section className="space-y-4">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           1. What is a Proprietorship? Core Concepts Explained
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           In simple terms, a sole proprietorship is an unincorporated business structure owned, managed,
           and financed by a single individual. In the eyes of the law, the owner and the enterprise are
           indivisible. There is no corporate charter, no external board of directors, and no division of
@@ -279,10 +279,10 @@ export default function UnderstandingProprietorshipBeginnersGuidePage() {
 
       {/* Section 2: Key Characteristics */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           2. Key Characteristics of a Sole Proprietorship
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           Four cornerstone pillars define the structure and legal posture of a sole proprietorship:
         </p>
 
@@ -317,7 +317,7 @@ export default function UnderstandingProprietorshipBeginnersGuidePage() {
                     {item.badge}
                   </span>
                 </div>
-                <p className="text-xs sm:text-[13px] text-slate-800 leading-relaxed font-normal">
+                <p className="text-xs sm:text-[13px] text-slate-600 leading-relaxed font-normal">
                   {item.desc}
                 </p>
               </div>
@@ -329,7 +329,7 @@ export default function UnderstandingProprietorshipBeginnersGuidePage() {
       {/* Section 3: Advantages & Disadvantages */}
       <section className="space-y-5 pt-6 border-t border-slate-100">
         <div>
-          <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+          <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
             3. Advantages vs. Disadvantages: The Founder&apos;s Dilemma
           </h2>
           <p className="text-xs sm:text-sm text-slate-700 font-normal mt-0.5">
@@ -422,10 +422,10 @@ export default function UnderstandingProprietorshipBeginnersGuidePage() {
 
       {/* Section 4: Self-Assessment Matrix */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           4. Is a Proprietorship Right for You? Self-Assessment Matrix
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           Before taking the plunge, evaluate your business vision across these four diagnostic dimensions:
         </p>
 
@@ -455,7 +455,7 @@ export default function UnderstandingProprietorshipBeginnersGuidePage() {
                     {criterion.title}
                   </h3>
                 </div>
-                <p className="text-xs sm:text-[13px] text-slate-800 leading-relaxed font-normal">
+                <p className="text-xs sm:text-[13px] text-slate-600 leading-relaxed font-normal">
                   {criterion.desc}
                 </p>
               </div>
@@ -466,10 +466,10 @@ export default function UnderstandingProprietorshipBeginnersGuidePage() {
 
       {/* Section 5: Five-Step Beginner Setup */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           5. Establishing Your Business: 5 Essential Steps
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           A high-level view of how beginners transition from an idea to a fully functioning commercial entity:
         </p>
 
@@ -486,7 +486,7 @@ export default function UnderstandingProprietorshipBeginnersGuidePage() {
                 <h4 className="text-xs sm:text-sm font-semibold text-slate-950">
                   {s.title}
                 </h4>
-                <p className="text-xs text-slate-800 leading-relaxed font-normal">
+                <p className="text-xs text-slate-600 leading-relaxed font-normal">
                   {s.desc}
                 </p>
               </div>
@@ -516,11 +516,11 @@ export default function UnderstandingProprietorshipBeginnersGuidePage() {
       <section className="space-y-4 pt-6 border-t border-slate-100">
         <div className="flex items-center gap-2">
           <HelpCircle className="w-5 h-5 text-blue-600" />
-          <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+          <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
             Frequently Asked Questions for Beginners
           </h2>
         </div>
-        <p className="text-sm text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base text-slate-700 font-normal">
           Answers to common questions from first-time entrepreneurs starting out in India:
         </p>
 

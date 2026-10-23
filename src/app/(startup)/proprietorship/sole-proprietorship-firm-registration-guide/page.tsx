@@ -224,11 +224,11 @@ export default function SoleProprietorshipFirmRegistrationGuidePage() {
     >
       {/* Intro Overview */}
       <section className="space-y-4">
-        <p className="text-base sm:text-lg leading-relaxed text-slate-900 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           Registering a sole proprietorship firm is the most direct, economical pathway to establish
           a legally recognized commercial entity in India.
         </p>
-        <p className="text-sm sm:text-base text-slate-800 leading-relaxed font-normal">
+        <p className="text-[15px] sm:text-base text-slate-700 leading-relaxed font-normal">
           This authoritative guide provides an in-depth roadmap covering registration prerequisites,
           tax registrations, RBI-compliant current banking, ongoing statutory compliance calendars, and
           seamless future conversion pathways.
@@ -237,10 +237,10 @@ export default function SoleProprietorshipFirmRegistrationGuidePage() {
 
       {/* Section 1: Legal Framework */}
       <section className="space-y-4">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           1. What is a Sole Proprietorship Firm in India?
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           In Indian commercial law, a sole proprietorship is an unincorporated enterprise owned and
           operated by an individual. The law does not draw a legal distinction between the owner and the
           business. Consequently, the firm does not possess an independent corporate charter like a
@@ -261,10 +261,10 @@ export default function SoleProprietorshipFirmRegistrationGuidePage() {
 
       {/* Section 2: Core Advantages */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           2. Core Strategic Advantages of a Registered Proprietorship
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           Discover why millions of Indian merchants, consultants, and professionals choose the sole proprietorship firm model:
         </p>
 
@@ -294,7 +294,7 @@ export default function SoleProprietorshipFirmRegistrationGuidePage() {
                     {card.title}
                   </h3>
                 </div>
-                <p className="text-xs sm:text-[13px] text-slate-800 leading-relaxed font-normal">
+                <p className="text-xs sm:text-[13px] text-slate-600 leading-relaxed font-normal">
                   {card.desc}
                 </p>
               </div>
@@ -307,7 +307,7 @@ export default function SoleProprietorshipFirmRegistrationGuidePage() {
       <section className="space-y-5 pt-6 border-t border-slate-100">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div>
-            <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+            <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
               3. Five-Step Operational Roadmap to Firm Registration
             </h2>
             <p className="text-xs sm:text-sm text-slate-700 font-normal mt-0.5">
@@ -367,7 +367,7 @@ export default function SoleProprietorshipFirmRegistrationGuidePage() {
       {/* Section 4: Ongoing Compliance Obligations */}
       <section className="space-y-5 pt-6 border-t border-slate-100">
         <div>
-          <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+          <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
             4. Ongoing Statutory Compliance & Legal Obligations
           </h2>
           <p className="text-xs sm:text-sm text-slate-700 font-normal mt-0.5">
@@ -409,7 +409,7 @@ export default function SoleProprietorshipFirmRegistrationGuidePage() {
                       <h4 className="text-xs sm:text-sm font-semibold text-slate-950">
                         {item.title}
                       </h4>
-                      <p className="text-xs text-slate-800 leading-relaxed font-normal">
+                      <p className="text-xs text-slate-600 leading-relaxed font-normal">
                         {item.detail}
                       </p>
                     </div>
@@ -423,10 +423,10 @@ export default function SoleProprietorshipFirmRegistrationGuidePage() {
 
       {/* Section 5: Future Growth & Conversion */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           5. Conversion Roadmap: Upgrading to Private Limited Company
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           As business turnover expands, third-party liability multiplies, or outside venture capital is
           sought, maintaining an unincorporated proprietorship becomes a bottleneck. Indian law allows a
           smooth, tax-neutral conversion into a Private Limited Company:
@@ -436,21 +436,21 @@ export default function SoleProprietorshipFirmRegistrationGuidePage() {
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-2 hover:bg-white hover:border-blue-400 transition-all duration-200">
             <span className="text-xs font-bold text-blue-700 block">Phase 1</span>
             <h4 className="text-sm font-semibold text-slate-950">Company Incorporation</h4>
-            <p className="text-xs text-slate-800 leading-relaxed font-normal">
+            <p className="text-xs text-slate-600 leading-relaxed font-normal">
               Incorporate a new corporate entity with the MCA, drafting MOA/AOA clauses explicitly authorizing the acquisition of the sole proprietorship firm.
             </p>
           </div>
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-2 hover:bg-white hover:border-emerald-400 transition-all duration-200">
             <span className="text-xs font-bold text-emerald-700 block">Phase 2</span>
             <h4 className="text-sm font-semibold text-slate-950">Business Transfer Agreement</h4>
-            <p className="text-xs text-slate-800 leading-relaxed font-normal">
+            <p className="text-xs text-slate-600 leading-relaxed font-normal">
               Execute a Slump Sale Agreement under Section 47(xiv) of the Income Tax Act, transferring all firm assets, goodwill, and liabilities to the company.
             </p>
           </div>
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 space-y-2 hover:bg-white hover:border-purple-400 transition-all duration-200">
             <span className="text-xs font-bold text-purple-700 block">Phase 3</span>
             <h4 className="text-sm font-semibold text-slate-950">Statutory Novation</h4>
-            <p className="text-xs text-slate-800 leading-relaxed font-normal">
+            <p className="text-xs text-slate-600 leading-relaxed font-normal">
               Novate customer contracts, transfer vendor leases, assign registered trademarks, update GST portal records, and migrate bank accounts.
             </p>
           </div>
@@ -492,11 +492,11 @@ export default function SoleProprietorshipFirmRegistrationGuidePage() {
       <section className="space-y-4 pt-6 border-t border-slate-100">
         <div className="flex items-center gap-2">
           <HelpCircle className="w-5 h-5 text-blue-600" />
-          <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+          <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
             Frequently Asked Questions
           </h2>
         </div>
-        <p className="text-sm text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base text-slate-700 font-normal">
           Common queries regarding sole proprietorship firm registration and legal compliance:
         </p>
 

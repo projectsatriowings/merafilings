@@ -155,40 +155,40 @@ export default function DefinitionAndMeaningPage() {
     >
       {/* Overview Intro */}
       <section className="space-y-4">
-        <p className="text-base sm:text-lg leading-relaxed text-slate-900 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           A <strong className="font-semibold text-slate-950">Sole Proprietorship</strong> represents the most foundational and widely adopted business structure in India. It is an unincorporated commercial enterprise owned, operated, and controlled by a single individual who assumes all operational rights, commercial gains, and financial liabilities.
         </p>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           For solo entrepreneurs, freelancers, local retail traders, and boutique consultancy firms, understanding the precise statutory meaning and operational characteristics of a sole proprietorship is critical before committing capital. Unlike incorporated corporate vehicles like Private Limited Companies or LLPs, a proprietorship offers zero bureaucratic red tape, complete autonomy, and immediate market entry.
         </p>
       </section>
 
       {/* Section 1: Legal Meaning & Nature */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           1. What is the Statutory Meaning of a Sole Proprietorship in India?
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           Under Indian jurisprudence, there is no separate governing statute solely titled the &quot;Sole Proprietorship Act.&quot; Instead, a proprietorship is governed by general commercial statutes including the <strong className="font-semibold text-slate-950">Indian Contract Act, 1872</strong>, the <strong className="font-semibold text-slate-950">Income Tax Act, 1961</strong>, the <strong className="font-semibold text-slate-950">Central Goods and Services Tax (CGST) Act, 2017</strong>, and state-specific <strong className="font-semibold text-slate-950">Shops and Commercial Establishments Acts</strong>.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
           <div className="p-4.5 rounded-xl bg-slate-50 border border-slate-200/80 hover:bg-white hover:border-emerald-500 hover:shadow-md hover:shadow-emerald-500/10 hover:-translate-y-0.5 transition-all duration-200 cursor-pointer group space-y-2">
-            <div className="flex items-center gap-2 text-emerald-700 font-semibold text-sm group-hover:text-emerald-800 transition-colors">
+            <div className="flex items-center gap-2 text-emerald-800 font-semibold text-sm group-hover:text-emerald-900 transition-colors">
               <ShieldCheck className="w-4.5 h-4.5 text-emerald-600" />
               <span>Identity of the Enterprise</span>
             </div>
-            <p className="text-xs sm:text-[13px] text-slate-800 leading-relaxed font-normal">
+            <p className="text-xs sm:text-[13px] text-slate-600 leading-relaxed font-normal">
               The firm possesses no distinct corporate veil. The business operates under the owner&apos;s personal PAN card. While it may adopt a distinctive trade name (e.g., &quot;Merra Apex Consulting&quot;), legally that trade name is merely an alias for the proprietor.
             </p>
           </div>
 
           <div className="p-4.5 rounded-xl bg-slate-50 border border-slate-200/80 hover:bg-white hover:border-blue-500 hover:shadow-md hover:shadow-blue-500/10 hover:-translate-y-0.5 transition-all duration-200 cursor-pointer group space-y-2">
-            <div className="flex items-center gap-2 text-blue-700 font-semibold text-sm group-hover:text-blue-800 transition-colors">
+            <div className="flex items-center gap-2 text-blue-800 font-semibold text-sm group-hover:text-blue-900 transition-colors">
               <FileText className="w-4.5 h-4.5 text-blue-600" />
               <span>Capital &amp; Assets Ownership</span>
             </div>
-            <p className="text-xs sm:text-[13px] text-slate-800 leading-relaxed font-normal">
+            <p className="text-xs sm:text-[13px] text-slate-600 leading-relaxed font-normal">
               All commercial machinery, stock-in-trade, leasehold premises, and bank balances are the absolute personal property of the proprietor. No shares are issued, and no capital dilution is possible without converting to a partnership or company.
             </p>
           </div>
@@ -197,10 +197,10 @@ export default function DefinitionAndMeaningPage() {
 
       {/* Section 2: 10 Core Characteristics */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           2. The 10 Primary Characteristics of a Sole Proprietorship
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           The following ten foundational characteristics define how a sole proprietorship functions in day-to-day legal, operational, and financial environments:
         </p>
 
@@ -226,7 +226,7 @@ export default function DefinitionAndMeaningPage() {
                     <div className="w-8 h-8 rounded-lg bg-white border border-slate-200/80 flex items-center justify-center shrink-0 shadow-3xs group-hover:scale-105 transition-transform">
                       {item.icon}
                     </div>
-                    <h3 className="text-sm font-semibold text-slate-950 transition-colors">
+                    <h3 className="text-sm sm:text-[14.5px] font-semibold text-slate-950 transition-colors">
                       {item.title}
                     </h3>
                   </div>
@@ -234,7 +234,7 @@ export default function DefinitionAndMeaningPage() {
                     {item.badge}
                   </span>
                 </div>
-                <p className="text-xs sm:text-[13px] text-slate-800 leading-relaxed font-normal">
+                <p className="text-xs sm:text-[13px] text-slate-600 leading-relaxed font-normal">
                   {item.desc}
                 </p>
               </div>
@@ -245,10 +245,10 @@ export default function DefinitionAndMeaningPage() {
 
       {/* Section 3: Comparative Analysis Matrix */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           3. Comparative Analysis: Proprietorship vs Other Business Structures
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           Understanding the strategic trade-offs between a Sole Proprietorship and incorporated legal models in India:
         </p>
 
@@ -313,24 +313,24 @@ export default function DefinitionAndMeaningPage() {
 
       {/* Section 4: Distinctive Features in Indian Business Environment */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           4. Sole Proprietorship in India&apos;s Business Ecosystem
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 hover:bg-white hover:border-emerald-500 hover:shadow-md hover:shadow-emerald-500/10 hover:-translate-y-0.5 transition-all duration-200 cursor-pointer group space-y-1.5">
-            <h3 className="font-semibold text-slate-950 text-sm group-hover:text-emerald-800 transition-colors">
+            <h3 className="font-semibold text-slate-950 text-sm sm:text-[14.5px] group-hover:text-emerald-800 transition-colors">
               Deep Cultural Alignment with Self-Employment
             </h3>
-            <p className="text-xs sm:text-[13px] text-slate-800 font-normal leading-relaxed">
+            <p className="text-xs sm:text-[13px] text-slate-600 font-normal leading-relaxed">
               India boasts over 63 million MSMEs, of which over 90% operate as sole proprietorships. This reflects the deep cultural pride in independent self-employment and autonomous generational trade.
             </p>
           </div>
 
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80 hover:bg-white hover:border-emerald-500 hover:shadow-md hover:shadow-emerald-500/10 hover:-translate-y-0.5 transition-all duration-200 cursor-pointer group space-y-1.5">
-            <h3 className="font-semibold text-slate-950 text-sm group-hover:text-emerald-800 transition-colors">
+            <h3 className="font-semibold text-slate-950 text-sm sm:text-[14.5px] group-hover:text-emerald-800 transition-colors">
               Access to Priority Sector Lending &amp; MUDRA Loans
             </h3>
-            <p className="text-xs sm:text-[13px] text-slate-800 font-normal leading-relaxed">
+            <p className="text-xs sm:text-[13px] text-slate-600 font-normal leading-relaxed">
               Proprietors with active Udyam certificates can access government-subsidized collateral-free loans under the Pradhan Mantri MUDRA Yojana (Shishu, Kishore, and Tarun schemes up to ₹10 Lakhs).
             </p>
           </div>
@@ -339,7 +339,7 @@ export default function DefinitionAndMeaningPage() {
 
       {/* Section 5: Why Choose Merrafilings */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           5. Why Choose Merrafilings for Your Proprietorship Setup?
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
@@ -348,7 +348,7 @@ export default function DefinitionAndMeaningPage() {
             <h3 className="font-semibold text-slate-950 text-xs sm:text-sm group-hover:text-emerald-800 transition-colors mb-1">
               Complete Digital Setup
             </h3>
-            <p className="text-xs text-slate-800 font-normal leading-relaxed">
+            <p className="text-xs text-slate-600 font-normal leading-relaxed">
               We obtain your Udyam MSME, GST registration, and state Shop Act certificate with zero physical office visits.
             </p>
           </div>
@@ -358,7 +358,7 @@ export default function DefinitionAndMeaningPage() {
             <h3 className="font-semibold text-slate-950 text-xs sm:text-sm group-hover:text-blue-800 transition-colors mb-1">
               Current Account Approval
             </h3>
-            <p className="text-xs text-slate-800 font-normal leading-relaxed">
+            <p className="text-xs text-slate-600 font-normal leading-relaxed">
               We coordinate with leading national banks (HDFC, ICICI, SBI) to ensure your business current account satisfies RBI KYC guidelines seamlessly.
             </p>
           </div>
@@ -368,7 +368,7 @@ export default function DefinitionAndMeaningPage() {
             <h3 className="font-semibold text-slate-950 text-xs sm:text-sm group-hover:text-purple-800 transition-colors mb-1">
               Year-Round Tax Advisory
             </h3>
-            <p className="text-xs text-slate-800 font-normal leading-relaxed">
+            <p className="text-xs text-slate-600 font-normal leading-relaxed">
               Our chartered accountants manage monthly GST returns (GSTR-1, GSTR-3B) and annual ITR-3 / ITR-4 filing with complete audit representation.
             </p>
           </div>
@@ -379,7 +379,7 @@ export default function DefinitionAndMeaningPage() {
       <section className="space-y-4 pt-6 border-t border-slate-100">
         <div className="flex items-center gap-2 mb-2">
           <HelpCircle className="w-5 h-5 text-emerald-600" />
-          <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+          <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
             Frequently Asked Questions
           </h2>
         </div>
@@ -407,7 +407,7 @@ export default function DefinitionAndMeaningPage() {
                   />
                 </button>
                 {isOpen && (
-                  <div className="px-4 sm:px-5 pb-5 pt-1 text-xs sm:text-sm text-slate-800 leading-relaxed font-normal border-t border-slate-100/80">
+                  <div className="px-4 sm:px-5 pb-5 pt-1 text-xs sm:text-sm text-slate-600 leading-relaxed font-normal border-t border-slate-100/80">
                     {faq.a}
                   </div>
                 )}

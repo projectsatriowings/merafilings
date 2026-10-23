@@ -120,17 +120,17 @@ export default function ProprietorshipRegistrationGuideStepsBenefitsPage() {
     >
       {/* Intro */}
       <section className="space-y-4">
-        <p className="text-base sm:text-lg leading-relaxed text-slate-900 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           The path of entrepreneurship in India begins with choosing the appropriate legal structure. For single founders seeking minimal statutory friction, a <strong className="font-semibold text-slate-950">Sole Proprietorship</strong> provides the fastest, most economical gateway to establishing an active commercial presence.
         </p>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           While a sole proprietorship does not receive an incorporation certificate from the Ministry of Corporate Affairs (MCA), it achieves legal standing through state and central operational registrations. This comprehensive guide details the prerequisites, step-by-step registration workflow, financial advantages, and critical compliance protocols.
         </p>
       </section>
 
       {/* Section 1: Core Benefits */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           1. Key Benefits of Sole Proprietorship Registration
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
@@ -139,7 +139,7 @@ export default function ProprietorshipRegistrationGuideStepsBenefitsPage() {
               <Zap className="w-4 h-4 text-emerald-600" />
               <span>Rapid 48-Hour Establishment</span>
             </div>
-            <p className="text-xs sm:text-[13px] text-slate-800 font-normal leading-relaxed">
+            <p className="text-xs sm:text-[13px] text-slate-600 font-normal leading-relaxed">
               No drafting of Memorandum of Association (MOA) or Articles of Association (AOA) is required. Registration is executed rapidly through Udyam MSME and GST portal clearance.
             </p>
           </div>
@@ -149,7 +149,7 @@ export default function ProprietorshipRegistrationGuideStepsBenefitsPage() {
               <Building className="w-4 h-4 text-blue-600" />
               <span>Zero Mandatory Board Compliance</span>
             </div>
-            <p className="text-xs sm:text-[13px] text-slate-800 font-normal leading-relaxed">
+            <p className="text-xs sm:text-[13px] text-slate-600 font-normal leading-relaxed">
               Eliminates mandatory board meetings, AGM filings, Director Identification Number (DIN) maintenance, and statutory MCA annual forms like AOC-4 and MGT-7.
             </p>
           </div>
@@ -159,7 +159,7 @@ export default function ProprietorshipRegistrationGuideStepsBenefitsPage() {
               <TrendingUp className="w-4 h-4 text-purple-600" />
               <span>Pass-Through Individual Tax Slabs</span>
             </div>
-            <p className="text-xs sm:text-[13px] text-slate-800 font-normal leading-relaxed">
+            <p className="text-xs sm:text-[13px] text-slate-600 font-normal leading-relaxed">
               Net income is taxed under progressive individual income tax slabs rather than flat corporate tax. Eligible proprietors can also adopt the Section 44AD presumptive tax scheme.
             </p>
           </div>
@@ -169,7 +169,7 @@ export default function ProprietorshipRegistrationGuideStepsBenefitsPage() {
               <Award className="w-4 h-4 text-amber-600" />
               <span>Priority Sector Lending &amp; Subsidies</span>
             </div>
-            <p className="text-xs sm:text-[13px] text-slate-800 font-normal leading-relaxed">
+            <p className="text-xs sm:text-[13px] text-slate-600 font-normal leading-relaxed">
               Udyam-registered sole proprietors qualify for 50% discount on government trademark filing fees, government tender fee exemptions, and lower bank interest rates under CGTMSE.
             </p>
           </div>
@@ -178,10 +178,10 @@ export default function ProprietorshipRegistrationGuideStepsBenefitsPage() {
 
       {/* Section 2: Prerequisites */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           2. Mandatory Prerequisites for Registration
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           Before initiating your registration application, ensure you have gathered the following verified documentation:
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1 text-xs sm:text-[13px] text-slate-900 font-normal">
@@ -206,10 +206,10 @@ export default function ProprietorshipRegistrationGuideStepsBenefitsPage() {
 
       {/* Section 3: Step-by-Step Registration */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           3. Step-by-Step Proprietorship Registration Workflow
         </h2>
-        <p className="text-sm sm:text-base leading-relaxed text-slate-800 font-normal">
+        <p className="text-[15px] sm:text-base leading-relaxed text-slate-700 font-normal">
           Follow these seven sequential steps to formalize your business identity and activate commercial banking:
         </p>
 
@@ -242,7 +242,7 @@ export default function ProprietorshipRegistrationGuideStepsBenefitsPage() {
                     {item.badge}
                   </span>
                 </div>
-                <p className="text-xs sm:text-[13px] text-slate-800 font-normal leading-relaxed pl-11">
+                <p className="text-xs sm:text-[13px] text-slate-600 font-normal leading-relaxed pl-11">
                   {item.desc}
                 </p>
               </div>
@@ -253,7 +253,7 @@ export default function ProprietorshipRegistrationGuideStepsBenefitsPage() {
 
       {/* Section 4: Common Challenges */}
       <section className="space-y-4 pt-6 border-t border-slate-100">
-        <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
           4. Challenges in Proprietorship Registration &amp; Mitigation
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
@@ -262,7 +262,7 @@ export default function ProprietorshipRegistrationGuideStepsBenefitsPage() {
             <h3 className="font-semibold text-slate-950 text-xs sm:text-sm group-hover:text-rose-800 transition-colors">
               Unlimited Personal Liability
             </h3>
-            <p className="text-xs text-slate-800 font-normal leading-relaxed">
+            <p className="text-xs text-slate-600 font-normal leading-relaxed">
               Personal assets remain vulnerable to business debts. Mitigation: Procure commercial general liability insurance and convert to an LLP once turnover scales.
             </p>
           </div>
@@ -272,7 +272,7 @@ export default function ProprietorshipRegistrationGuideStepsBenefitsPage() {
             <h3 className="font-semibold text-slate-950 text-xs sm:text-sm group-hover:text-amber-800 transition-colors">
               Bank Account Opening Delays
             </h3>
-            <p className="text-xs text-slate-800 font-normal leading-relaxed">
+            <p className="text-xs text-slate-600 font-normal leading-relaxed">
               Banks strictly reject applications lacking two verified registrations under RBI KYC. Mitigation: Merrafilings secures both Udyam and GSTIN prior to banking submission.
             </p>
           </div>
@@ -282,7 +282,7 @@ export default function ProprietorshipRegistrationGuideStepsBenefitsPage() {
             <h3 className="font-semibold text-slate-950 text-xs sm:text-sm group-hover:text-purple-800 transition-colors">
               Capital Ceiling Limitations
             </h3>
-            <p className="text-xs text-slate-800 font-normal leading-relaxed">
+            <p className="text-xs text-slate-600 font-normal leading-relaxed">
               Venture capital and angel funds cannot invest in an unincorporated proprietorship. Mitigation: Bootstrap initially and convert smoothly to a Pvt Ltd when seeking institutional funding.
             </p>
           </div>
@@ -293,7 +293,7 @@ export default function ProprietorshipRegistrationGuideStepsBenefitsPage() {
       <section className="space-y-4 pt-6 border-t border-slate-100">
         <div className="flex items-center gap-2 mb-2">
           <HelpCircle className="w-5 h-5 text-emerald-600" />
-          <h2 className="text-xl sm:text-2xl font-normal text-[#1F1646] tracking-tight">
+          <h2 className="text-xl sm:text-2xl font-bold text-slate-950 tracking-tight">
             Frequently Asked Questions
           </h2>
         </div>
@@ -321,7 +321,7 @@ export default function ProprietorshipRegistrationGuideStepsBenefitsPage() {
                   />
                 </button>
                 {isOpen && (
-                  <div className="px-4 sm:px-5 pb-5 pt-1 text-xs sm:text-sm text-slate-800 leading-relaxed font-normal border-t border-slate-100/80">
+                  <div className="px-4 sm:px-5 pb-5 pt-1 text-xs sm:text-sm text-slate-600 leading-relaxed font-normal border-t border-slate-100/80">
                     {faq.a}
                   </div>
                 )}

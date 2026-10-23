@@ -143,13 +143,13 @@ export default function LlpGuideLayout({
                 <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
                 <span>LLP Statutory &amp; Registration Handbook</span>
               </div>
-              <h1 className="text-2xl sm:text-3xl md:text-4xl font-normal text-[#1F1646] tracking-tight leading-tight">
+              <h1 className="text-2xl sm:text-3xl lg:text-[34px] font-bold text-slate-950 tracking-tight leading-[1.25] sm:leading-tight">
                 {displayTitle}
               </h1>
 
               {/* Author & Timestamp Bar */}
-              <div className="flex flex-wrap items-center gap-4 text-xs text-slate-600 font-normal mt-4 pt-3 border-t border-slate-50">
-                <span className="inline-flex items-center gap-1.5 text-slate-800 font-medium">
+              <div className="flex flex-wrap items-center gap-y-2 gap-x-4 text-xs sm:text-[13px] text-slate-600 font-normal mt-4 pt-3 border-t border-slate-100">
+                <span className="inline-flex items-center gap-1.5 text-slate-900 font-bold">
                   <User className="w-3.5 h-3.5 text-emerald-600" />
                   {authorName}
                 </span>
@@ -164,7 +164,7 @@ export default function LlpGuideLayout({
                   {readingTime}
                 </span>
                 <span className="text-slate-300">•</span>
-                <span className="inline-flex items-center gap-1.5 text-emerald-700 font-medium bg-emerald-50 px-2 py-0.5 rounded-md">
+                <span className="inline-flex items-center gap-1.5 text-emerald-800 font-semibold bg-emerald-50 px-2.5 py-0.5 rounded-md border border-emerald-200/70">
                   <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
                   LLP Act, 2008 &amp; MCA V3 Compliant
                 </span>

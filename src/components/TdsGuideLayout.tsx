@@ -224,10 +224,10 @@ export default function TdsGuideLayout({
                     </div>
                   </div>
                   <div>
-                    <h3 className="text-xs sm:text-[13px] font-semibold text-slate-900 leading-tight">
+                    <h3 className="text-sm font-semibold text-slate-900 leading-tight">
                       Consult <span className="text-[#155EEF]">Experts</span>
                     </h3>
-                    <p className="text-[11px] text-slate-600 font-normal">
+                    <p className="text-xs text-slate-600 font-normal">
                       Free 15-min TDS compliance &amp; default notice review
                     </p>
                   </div>
@@ -296,13 +296,13 @@ export default function TdsGuideLayout({
 
             {/* Widget 3: Fast-Track Quarterly TDS Retainer Suite Card */}
             <div className="bg-white border border-slate-200/90 rounded-2xl p-5 shadow-2xs">
-              <h3 className="text-sm font-semibold text-slate-900 mb-2">
+              <h3 className="text-sm sm:text-base font-bold text-slate-900 mb-2">
                 Need End-to-End Quarterly TDS Compliance &amp; Retainer?
               </h3>
-              <p className="text-xs text-slate-600 leading-relaxed font-normal mb-4">
+              <p className="text-[13px] text-slate-600 leading-relaxed font-normal mb-4">
                 Avoid the statutory ₹200/day Section 234E late fee and ₹1 Lakh Section 271H penalty. Our corporate tax specialists prepare, validate via FVU, and submit your quarterly returns across all forms.
               </p>
-              <ul className="space-y-2 text-xs text-slate-700 mb-4 font-normal">
+              <ul className="space-y-2 text-[12.5px] text-slate-700 mb-4 font-normal">
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
                   <span>Form 24Q (Salary), 26Q (Domestic), 27Q (Foreign) &amp; 27EQ (TCS)</span>
@@ -337,7 +337,7 @@ export default function TdsGuideLayout({
                   Statutory Deductor Penalties
                 </span>
               </div>
-              <div className="space-y-2 text-xs">
+              <div className="space-y-2.5 text-xs sm:text-[13px]">
                 <div className="flex justify-between items-start">
                   <span className="text-slate-400">Late Return Filing:</span>
                   <span className="text-amber-300 font-bold text-right">₹200/day (Sec 234E)</span>
@@ -359,7 +359,7 @@ export default function TdsGuideLayout({
                   <span className="text-rose-400 font-semibold text-right">30% to 100% (Sec 40(a))</span>
                 </div>
               </div>
-              <p className="text-[11px] text-slate-400 leading-snug pt-2 border-t border-slate-800">
+              <p className="text-xs text-slate-400 leading-relaxed pt-2 border-t border-slate-800">
                 Quarterly returns cannot be filed without validating the .fvu file against the latest Protean directory. Deductions must match Challan 281 entries on the TRACES system to prevent credit mismatches for payees.
               </p>
             </div>

@@ -83,7 +83,7 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
             <h2 className="text-lg sm:text-xl font-bold text-slate-950 mb-2">
               Statutory Roadmap for Quarterly TDS Return Filing
             </h2>
-            <p className="text-xs sm:text-[13px] text-slate-700 leading-relaxed font-normal">
+            <p className="text-sm sm:text-base text-slate-700 leading-relaxed font-normal">
               Managing <strong>Tax Deducted at Source (TDS) Return Filing</strong> is an indispensable compliance mandate for every employer, corporate entity, LLP, partnership, and individual deductor in India. Governed by <strong>Section 200(3) of the Income Tax Act, 1961</strong>, quarterly TDS filing ensures that taxes deducted at source are seamlessly mapped to the Central Government&apos;s treasury and credited to the deductee&apos;s Permanent Account Number (PAN). Maintaining meticulous adherence to deadlines and validation standards eliminates heavy penalties under <strong>Section 234E and Section 271H</strong>.
             </p>
           </div>
@@ -98,7 +98,7 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
           </span>
           Why Timely TDS Return Filing is Essential
         </h2>
-        <p className="text-sm sm:text-[15px] text-slate-700 leading-relaxed font-normal">
+        <p className="text-[15px] sm:text-base text-slate-700 leading-relaxed font-normal">
           Submitting TDS statements each quarter is far more than an administrative routine; it forms the backbone of India&apos;s real-time tax accounting infrastructure:
         </p>
 
@@ -108,11 +108,11 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
               <div className="w-8 h-8 rounded-lg bg-emerald-50 text-emerald-600 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
                 <ShieldCheck className="w-4.5 h-4.5" />
               </div>
-              <h3 className="text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors">
+              <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-emerald-700 transition-colors">
                 Statutory Regulatory Compliance
               </h3>
             </div>
-            <p className="text-xs text-slate-600 leading-relaxed font-normal">
+            <p className="text-[13.5px] sm:text-sm text-slate-600 leading-relaxed font-normal">
               Mandatory under Section 200(3). Ensures that your organization operates fully within the bounds of direct tax legislation and maintains a clean regulatory track record with the Income Tax Department.
             </p>
           </div>
@@ -122,11 +122,11 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
               <div className="w-8 h-8 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
                 <AlertTriangle className="w-4.5 h-4.5" />
               </div>
-              <h3 className="text-sm font-bold text-slate-900 group-hover:text-amber-700 transition-colors">
+              <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-amber-700 transition-colors">
                 Avoid Daily Late Fees &amp; Penalties
               </h3>
             </div>
-            <p className="text-xs text-slate-600 leading-relaxed font-normal">
+            <p className="text-[13.5px] sm:text-sm text-slate-600 leading-relaxed font-normal">
               Avoids the statutory ₹200/day late filing fee under Section 234E and prevents Assessing Officers from issuing penal notices ranging from ₹10,000 to ₹1,00,000 under Section 271H.
             </p>
           </div>
@@ -136,11 +136,11 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
               <div className="w-8 h-8 rounded-lg bg-blue-50 text-blue-600 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
                 <FileCheck className="w-4.5 h-4.5" />
               </div>
-              <h3 className="text-sm font-bold text-slate-900 group-hover:text-blue-700 transition-colors">
+              <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-blue-700 transition-colors">
                 Real-Time 26AS &amp; AIS Verification
               </h3>
             </div>
-            <p className="text-xs text-slate-600 leading-relaxed font-normal">
+            <p className="text-[13.5px] sm:text-sm text-slate-600 leading-relaxed font-normal">
               Accurate filing guarantees that the tax deducted is credited immediately to the deductee&apos;s Form 26AS, AIS, and TIS, eliminating vendor friction and disputes over uncredited withholdings.
             </p>
           </div>
@@ -150,11 +150,11 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
               <div className="w-8 h-8 rounded-lg bg-purple-50 text-purple-600 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
                 <Receipt className="w-4.5 h-4.5" />
               </div>
-              <h3 className="text-sm font-bold text-slate-900 group-hover:text-purple-700 transition-colors">
+              <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-purple-700 transition-colors">
                 Uninterrupted Deductee ITR Processing
               </h3>
             </div>
-            <p className="text-xs text-slate-600 leading-relaxed font-normal">
+            <p className="text-[13.5px] sm:text-sm text-slate-600 leading-relaxed font-normal">
               Enables employees and commercial vendors to claim tax refunds and process their annual Income Tax Returns smoothly without receiving Section 143(1) tax demand intimations.
             </p>
           </div>
@@ -169,7 +169,7 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
           </span>
           Selecting the Appropriate Quarterly TDS Form
         </h2>
-        <p className="text-sm sm:text-[15px] text-slate-700 leading-relaxed font-normal">
+        <p className="text-[15px] sm:text-base text-slate-700 leading-relaxed font-normal">
           Selecting the right statutory statement form is determined by the nature of the transaction and the residential status of the payee:
         </p>
 
@@ -179,12 +179,12 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
               <span className="text-xs font-bold px-2.5 py-1 rounded-md bg-blue-100 text-blue-800">
                 Form 24Q
               </span>
-              <span className="text-[11px] text-slate-500 font-medium">Salaried Employees</span>
+              <span className="text-xs text-slate-500 font-medium">Salaried Employees</span>
             </div>
-            <h3 className="text-sm font-bold text-slate-900 group-hover:text-blue-700 transition-colors mb-1.5">
+            <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-blue-700 transition-colors mb-1.5">
               TDS on Salary Payments (Section 192)
             </h3>
-            <p className="text-xs text-slate-600 leading-relaxed font-normal">
+            <p className="text-[13.5px] sm:text-sm text-slate-600 leading-relaxed font-normal">
               Filed exclusively by employers for all salaried personnel. Contains Annexure I across all four quarters (Q1–Q4) and mandatory Annexure II in Quarter 4 detailing total employee remuneration, standard deductions, HRA exemptions, and Chapter VIA deductions.
             </p>
           </div>
@@ -194,12 +194,12 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
               <span className="text-xs font-bold px-2.5 py-1 rounded-md bg-emerald-100 text-emerald-800">
                 Form 26Q
               </span>
-              <span className="text-[11px] text-slate-500 font-medium">Resident Deductees</span>
+              <span className="text-xs text-slate-500 font-medium">Resident Deductees</span>
             </div>
-            <h3 className="text-sm font-bold text-slate-900 group-hover:text-emerald-700 transition-colors mb-1.5">
+            <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-emerald-700 transition-colors mb-1.5">
               TDS on Domestic Non-Salary Payments
             </h3>
-            <p className="text-xs text-slate-600 leading-relaxed font-normal">
+            <p className="text-[13.5px] sm:text-sm text-slate-600 leading-relaxed font-normal">
               Covers all payments made to resident contractors (Section 194C), professional and technical service fees (194J), commercial/residential rent (194I), commission/brokerage (194H), bank interest (194A), and purchase of goods (194Q).
             </p>
           </div>
@@ -209,12 +209,12 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
               <span className="text-xs font-bold px-2.5 py-1 rounded-md bg-purple-100 text-purple-800">
                 Form 27Q
               </span>
-              <span className="text-[11px] text-slate-500 font-medium">Non-Residents &amp; Foreign Cos</span>
+              <span className="text-xs text-slate-500 font-medium">Non-Residents &amp; Foreign Cos</span>
             </div>
-            <h3 className="text-sm font-bold text-slate-900 group-hover:text-purple-700 transition-colors mb-1.5">
+            <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-purple-700 transition-colors mb-1.5">
               TDS on Payments to Non-Residents (Section 195)
             </h3>
-            <p className="text-xs text-slate-600 leading-relaxed font-normal">
+            <p className="text-[13.5px] sm:text-sm text-slate-600 leading-relaxed font-normal">
               Mandatory quarterly return for foreign remittances, overseas consultancy charges, software royalties, overseas interest on ECBs, and capital gains. Requires capturing DTAA treaty benefits, TRC details, and Form 15CA/CB acknowledgement numbers.
             </p>
           </div>
@@ -224,12 +224,12 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
               <span className="text-xs font-bold px-2.5 py-1 rounded-md bg-amber-100 text-amber-800">
                 Form 27EQ
               </span>
-              <span className="text-[11px] text-slate-500 font-medium">Tax Collection at Source</span>
+              <span className="text-xs text-slate-500 font-medium">Tax Collection at Source</span>
             </div>
-            <h3 className="text-sm font-bold text-slate-900 group-hover:text-amber-700 transition-colors mb-1.5">
+            <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-amber-700 transition-colors mb-1.5">
               TCS Statement on Specified Commercial Sales
             </h3>
-            <p className="text-xs text-slate-600 leading-relaxed font-normal">
+            <p className="text-[13.5px] sm:text-sm text-slate-600 leading-relaxed font-normal">
               Filed quarterly by commercial sellers collecting Tax Collected at Source (TCS) under Section 206C on sale of scrap, minerals, timber, alcoholic liquor, foreign remittance under LRS, overseas tour packages, and high-value motor vehicles.
             </p>
           </div>
@@ -244,7 +244,7 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
           </span>
           Step-by-Step Execution Procedure for TDS Return Filing
         </h2>
-        <p className="text-sm sm:text-[15px] text-slate-700 leading-relaxed font-normal">
+        <p className="text-[15px] sm:text-base text-slate-700 leading-relaxed font-normal">
           Executing an error-free quarterly return requires adherence to a standardized six-stage procedure:
         </p>
 
@@ -289,16 +289,16 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
           ].map((item, idx) => (
             <div
               key={idx}
-              className="group p-4 sm:p-5 rounded-2xl border border-slate-200 bg-white shadow-2xs hover:border-emerald-500 hover:shadow-md hover:shadow-emerald-500/10 hover:bg-emerald-50/15 hover:-translate-y-1 transition-all duration-300 flex items-start gap-4 cursor-pointer"
+              className="group p-4.5 sm:p-5 rounded-2xl border border-slate-200 bg-white shadow-2xs hover:border-emerald-500 hover:shadow-md hover:shadow-emerald-500/10 hover:bg-emerald-50/15 hover:-translate-y-1 transition-all duration-300 flex items-start gap-4 cursor-pointer"
             >
-              <div className="w-10 h-10 rounded-xl bg-slate-900 text-white font-bold text-xs sm:text-sm flex items-center justify-center shrink-0 group-hover:bg-emerald-600 transition-colors shadow-xs">
+              <div className="w-10 h-10 rounded-xl bg-slate-900 text-white font-bold text-sm flex items-center justify-center shrink-0 group-hover:bg-emerald-600 transition-colors shadow-xs">
                 {item.num}
               </div>
               <div className="flex-1">
-                <h4 className="text-xs sm:text-[14px] font-bold text-slate-900 group-hover:text-emerald-700 transition-colors mb-1">
+                <h4 className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-emerald-700 transition-colors mb-1.5">
                   {item.title}
                 </h4>
-                <p className="text-xs text-slate-600 leading-relaxed font-normal">{item.desc}</p>
+                <p className="text-[13.5px] sm:text-sm text-slate-600 leading-relaxed font-normal">{item.desc}</p>
               </div>
             </div>
           ))}
@@ -313,49 +313,49 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
           </span>
           Statutory Quarterly Filing Deadlines (AY 2026-27)
         </h2>
-        <p className="text-sm sm:text-[15px] text-slate-700 leading-relaxed font-normal">
+        <p className="text-[15px] sm:text-base text-slate-700 leading-relaxed font-normal">
           Missing the quarterly cutoff date results in an irreversible automated late fee of ₹200 per day under Section 234E:
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 pt-2">
           <div className="p-4 rounded-xl border border-slate-200 bg-white shadow-3xs text-center space-y-2">
-            <span className="px-2.5 py-1 rounded-full bg-blue-100 text-blue-800 text-[11px] font-bold uppercase tracking-wider">
+            <span className="px-2.5 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-bold uppercase tracking-wider">
               Quarter 01
             </span>
-            <div className="text-xs text-slate-500 font-medium">April 1 – June 30</div>
+            <div className="text-xs sm:text-[13px] text-slate-500 font-medium">April 1 – June 30</div>
             <div className="text-base sm:text-lg font-bold text-slate-900">July 31st</div>
-            <div className="text-[11px] text-emerald-700 font-medium">Forms 24Q, 26Q, 27Q, 27EQ</div>
+            <div className="text-xs font-semibold text-emerald-700">Forms 24Q, 26Q, 27Q, 27EQ</div>
           </div>
 
           <div className="p-4 rounded-xl border border-slate-200 bg-white shadow-3xs text-center space-y-2">
-            <span className="px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800 text-[11px] font-bold uppercase tracking-wider">
+            <span className="px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider">
               Quarter 02
             </span>
-            <div className="text-xs text-slate-500 font-medium">July 1 – September 30</div>
+            <div className="text-xs sm:text-[13px] text-slate-500 font-medium">July 1 – September 30</div>
             <div className="text-base sm:text-lg font-bold text-slate-900">October 31st</div>
-            <div className="text-[11px] text-emerald-700 font-medium">Forms 24Q, 26Q, 27Q, 27EQ</div>
+            <div className="text-xs font-semibold text-emerald-700">Forms 24Q, 26Q, 27Q, 27EQ</div>
           </div>
 
           <div className="p-4 rounded-xl border border-slate-200 bg-white shadow-3xs text-center space-y-2">
-            <span className="px-2.5 py-1 rounded-full bg-purple-100 text-purple-800 text-[11px] font-bold uppercase tracking-wider">
+            <span className="px-2.5 py-1 rounded-full bg-purple-100 text-purple-800 text-xs font-bold uppercase tracking-wider">
               Quarter 03
             </span>
-            <div className="text-xs text-slate-500 font-medium">October 1 – December 31</div>
+            <div className="text-xs sm:text-[13px] text-slate-500 font-medium">October 1 – December 31</div>
             <div className="text-base sm:text-lg font-bold text-slate-900">January 31st</div>
-            <div className="text-[11px] text-emerald-700 font-medium">Forms 24Q, 26Q, 27Q, 27EQ</div>
+            <div className="text-xs font-semibold text-emerald-700">Forms 24Q, 26Q, 27Q, 27EQ</div>
           </div>
 
           <div className="p-4 rounded-xl border border-slate-200 bg-white shadow-3xs text-center space-y-2">
-            <span className="px-2.5 py-1 rounded-full bg-amber-100 text-amber-800 text-[11px] font-bold uppercase tracking-wider">
+            <span className="px-2.5 py-1 rounded-full bg-amber-100 text-amber-800 text-xs font-bold uppercase tracking-wider">
               Quarter 04
             </span>
-            <div className="text-xs text-slate-500 font-medium">January 1 – March 31</div>
+            <div className="text-xs sm:text-[13px] text-slate-500 font-medium">January 1 – March 31</div>
             <div className="text-base sm:text-lg font-bold text-slate-900">May 31st</div>
-            <div className="text-[11px] text-emerald-700 font-medium">Includes 24Q Annexure II</div>
+            <div className="text-xs font-semibold text-emerald-700">Includes 24Q Annexure II</div>
           </div>
         </div>
 
-        <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs sm:text-[13px] text-slate-700 leading-relaxed">
+        <div className="p-4.5 rounded-xl bg-slate-50 border border-slate-200 text-[13.5px] sm:text-sm text-slate-700 leading-relaxed font-normal">
           <strong className="font-semibold text-slate-900">Monthly Tax Deposit Rule:</strong> TDS deducted during any calendar month must be deposited into the Central Government account via Challan 281 by the <strong>7th day of the following month</strong> (e.g., TDS deducted in October must be remitted by November 7th). For the month of March, the deposit deadline is extended to <strong>April 30th</strong>.
         </div>
       </section>
@@ -368,7 +368,7 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
           </span>
           Common Pitfalls That Trigger Demand Notices
         </h2>
-        <p className="text-sm sm:text-[15px] text-slate-700 leading-relaxed font-normal">
+        <p className="text-[15px] sm:text-base text-slate-700 leading-relaxed font-normal">
           Over 75% of Section 200A intimation notices and TRACES defaults stem from preventable data errors:
         </p>
 
@@ -376,9 +376,9 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
           <div className="group p-5 rounded-2xl border border-rose-200 bg-rose-50/40 shadow-2xs hover:border-rose-500 hover:shadow-md hover:shadow-rose-500/10 hover:bg-rose-50/70 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
             <div className="flex items-center gap-2 mb-2 text-rose-800">
               <AlertTriangle className="w-5 h-5 text-rose-600 group-hover:scale-110 transition-transform" />
-              <h3 className="text-sm font-bold">1. Incorrect or Inoperative PAN</h3>
+              <h3 className="text-sm sm:text-base font-bold">1. Incorrect or Inoperative PAN</h3>
             </div>
-            <p className="text-xs text-slate-700 leading-relaxed font-normal">
+            <p className="text-[13.5px] sm:text-sm text-slate-700 leading-relaxed font-normal">
               Typographical errors in the deductee&apos;s PAN or failing to verify Aadhaar-linkage leads to rejection by the CPC-TDS matching engine. The system recalculates TDS at 20% under Section 206AA and generates a short-deduction demand.
             </p>
           </div>
@@ -386,9 +386,9 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
           <div className="group p-5 rounded-2xl border border-amber-200 bg-amber-50/40 shadow-2xs hover:border-amber-500 hover:shadow-md hover:shadow-amber-500/10 hover:bg-amber-50/70 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
             <div className="flex items-center gap-2 mb-2 text-amber-800">
               <Receipt className="w-5 h-5 text-amber-600 group-hover:scale-110 transition-transform" />
-              <h3 className="text-sm font-bold">2. Challan Mismatch (CIN Discrepancy)</h3>
+              <h3 className="text-sm sm:text-base font-bold">2. Challan Mismatch (CIN Discrepancy)</h3>
             </div>
-            <p className="text-xs text-slate-700 leading-relaxed font-normal">
+            <p className="text-[13.5px] sm:text-sm text-slate-700 leading-relaxed font-normal">
               Quoting an erroneous BSR code, incorrect challan serial number, or wrong deposit amount makes the payment unmatchable with the OLTAS database, treating the deductee entries as unpaid.
             </p>
           </div>
@@ -396,9 +396,9 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
           <div className="group p-5 rounded-2xl border border-blue-200 bg-blue-50/40 shadow-2xs hover:border-blue-500 hover:shadow-md hover:shadow-blue-500/10 hover:bg-blue-50/70 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
             <div className="flex items-center gap-2 mb-2 text-blue-800">
               <Clock className="w-5 h-5 text-blue-600 group-hover:scale-110 transition-transform" />
-              <h3 className="text-sm font-bold">3. Filing Beyond Cutoff Deadlines</h3>
+              <h3 className="text-sm sm:text-base font-bold">3. Filing Beyond Cutoff Deadlines</h3>
             </div>
-            <p className="text-xs text-slate-700 leading-relaxed font-normal">
+            <p className="text-[13.5px] sm:text-sm text-slate-700 leading-relaxed font-normal">
               Every single day of delay past the quarterly cutoff attracts an automated fee of ₹200 per day under Section 234E that must be cleared prior to return processing.
             </p>
           </div>
@@ -406,9 +406,9 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
           <div className="group p-5 rounded-2xl border border-purple-200 bg-purple-50/40 shadow-2xs hover:border-purple-500 hover:shadow-md hover:shadow-purple-500/10 hover:bg-purple-50/70 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
             <div className="flex items-center gap-2 mb-2 text-purple-800">
               <FileCheck className="w-5 h-5 text-purple-600 group-hover:scale-110 transition-transform" />
-              <h3 className="text-sm font-bold">4. Failure to Issue Form 16 / 16A</h3>
+              <h3 className="text-sm sm:text-base font-bold">4. Failure to Issue Form 16 / 16A</h3>
             </div>
-            <p className="text-xs text-slate-700 leading-relaxed font-normal">
+            <p className="text-[13.5px] sm:text-sm text-slate-700 leading-relaxed font-normal">
               Filing the return is only half the statutory requirement. Section 203 mandates employers to issue Form 16 by June 15th and quarterly deductors to issue Form 16A within 15 days of the filing due date.
             </p>
           </div>
@@ -435,7 +435,7 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
                 <button
                   type="button"
                   onClick={() => toggleFaq(index)}
-                  className="w-full py-3.5 px-4 sm:px-5 flex items-center justify-between gap-4 text-left font-semibold text-slate-900 text-xs sm:text-[13.5px] cursor-pointer"
+                  className="w-full py-4 px-4 sm:px-5 flex items-center justify-between gap-4 text-left font-semibold text-slate-900 text-sm sm:text-[15px] cursor-pointer"
                 >
                   <span className="group-hover:text-emerald-700 transition-colors">
                     {faq.q}
@@ -445,7 +445,7 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
                   </span>
                 </button>
                 {isOpen && (
-                  <div className="px-4 sm:px-5 pb-4 pt-1 text-xs sm:text-[13px] text-slate-600 leading-relaxed border-t border-slate-100 bg-slate-50/50 font-normal">
+                  <div className="px-4 sm:px-5 pb-4 pt-1 text-[13.5px] sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 bg-slate-50/50 font-normal">
                     {faq.a}
                   </div>
                 )}
@@ -460,19 +460,19 @@ export default function TdsReturnFilingGuidelinesEssentialStepsPage() {
         <h3 className="text-lg sm:text-2xl font-bold tracking-tight">
           Ensure 100% Error-Free Quarterly TDS Filing
         </h3>
-        <p className="text-xs sm:text-sm text-slate-300 max-w-2xl mx-auto leading-relaxed font-normal">
+        <p className="text-sm sm:text-[15px] text-slate-300 max-w-2xl mx-auto leading-relaxed font-normal">
           Eliminate ₹200/day Section 234E late fees, mismatched challans, and CPC-TDS short deduction notices. Merrafilings handles return preparation, FVU validation, TRACES reconciliation, and Form 16/16A generation.
         </p>
         <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
           <Link
             href="/tds-return-filing"
-            className="px-5 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-semibold text-xs sm:text-[13px] shadow-sm transition-all"
+            className="px-5 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-semibold text-xs sm:text-sm shadow-sm transition-all"
           >
             File Quarterly TDS Returns Now
           </Link>
           <Link
             href="/income-tax"
-            className="px-5 py-2.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-semibold text-xs sm:text-[13px] border border-white/20 transition-all"
+            className="px-5 py-2.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-semibold text-xs sm:text-sm border border-white/20 transition-all"
           >
             Explore Income Tax Compliance
           </Link>

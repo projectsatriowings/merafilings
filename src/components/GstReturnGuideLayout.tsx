@@ -120,7 +120,7 @@ export default function GstReturnGuideLayout({
               <Receipt className="w-3.5 h-3.5 text-emerald-600" />
               <span>GST Compliance &amp; Return Filing Guide</span>
             </div>
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-normal text-[#1F1646] tracking-tight leading-tight">
+            <h1 className="text-2xl sm:text-3xl lg:text-[34px] font-bold text-slate-950 tracking-tight leading-[1.25] sm:leading-tight">
               {title}
             </h1>
 
