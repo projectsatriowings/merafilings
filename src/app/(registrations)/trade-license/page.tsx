@@ -5,6 +5,7 @@ import ServicePageTemplate, {
   PricingPackage,
   useServicePage,
 } from "@/components/ServicePageTemplate";
+import { TRADE_LICENSE_RELATED_GUIDES } from "@/components/TradeLicenseGuideLayout";
 import {
   FileText,
   ShieldCheck,
@@ -254,14 +255,7 @@ const PACKAGES: PricingPackage[] = [
   },
 ];
 
-const RELATED_GUIDES = [
-  "How to Apply for Gumasta License in Maharashtra",
-  "Shop and Establishment Act vs Municipal Trade License",
-  "Fire NOC Requirements for Commercial Establishments",
-  "Trade License Renewal Process & Late Fee Slabs",
-  "Documents Required for Municipal Trade License",
-  "How to Check Trade License Application Status Online",
-];
+const RELATED_GUIDES = TRADE_LICENSE_RELATED_GUIDES;
 
 const RELATED_SERVICES_TAGS = [
   "Shop & Establishment Registration",

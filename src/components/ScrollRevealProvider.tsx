@@ -80,13 +80,13 @@ export default function ScrollRevealProvider({ children }: { children?: React.Re
       });
     };
 
-    // Staggered frame after client mount ensures React hydration completes without interference
-    const frameId = requestAnimationFrame(() => {
+    // Defer observer setup until React hydration has completely settled to eliminate hydration diffs
+    const timerId = setTimeout(() => {
       setupObserver();
-    });
+    }, 150);
 
     return () => {
-      cancelAnimationFrame(frameId);
+      clearTimeout(timerId);
       if (activeObserver) {
         activeObserver.disconnect();
       }

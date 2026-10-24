@@ -5,6 +5,7 @@ import ServicePageTemplate, {
   PricingPackage,
   useServicePage,
 } from "@/components/ServicePageTemplate";
+import { PRODUCER_COMPANY_RELATED_GUIDES } from "@/components/ProducerCompanyGuideLayout";
 import {
   FileText,
   ShieldCheck,
@@ -291,14 +292,7 @@ const FORM_FEATURES = [
   },
 ];
 
-const RELATED_GUIDES = [
-  "Comprehensive Guide to Forming a Producer Company (FPO) in India",
-  "NABARD Equity Grant & SFAC Credit Guarantee Schemes for FPOs",
-  "How to Claim 100% Tax Exemption Under Section 80P for Producer Companies",
-  "Voting Rights & Patronage Bonus Distribution in a Producer Company",
-  "Differences Between Producer Company and Cooperative Society",
-  "APMC License & e-NAM Portal Onboarding for Farmer Producer Organizations",
-];
+const RELATED_GUIDES = PRODUCER_COMPANY_RELATED_GUIDES;
 
 function ProducerGuideContent() {
   const { openContactModal } = useServicePage();

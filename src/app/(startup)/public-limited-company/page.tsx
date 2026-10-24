@@ -5,6 +5,7 @@ import ServicePageTemplate, {
   PricingPackage,
   useServicePage,
 } from "@/components/ServicePageTemplate";
+import { PUBLIC_LIMITED_RELATED_GUIDES } from "@/components/PublicLimitedGuideLayout";
 import {
   FileText,
   ShieldCheck,
@@ -415,14 +416,7 @@ const FORM_FEATURES = [
   },
 ];
 
-const RELATED_GUIDES = [
-  "Comprehensive Guide to Forming a Public Limited Company in India",
-  "Mandatory Dematerialization of Securities for Unlisted Public Companies",
-  "Differences Between Public Limited, Private Limited, and Section 8",
-  "How Public Limited Companies Raise Capital via IPO and Private Placement",
-  "Role and Appointment of Independent Directors in Public Companies",
-  "Annual ROC Compliances and Secretarial Audits for Public Companies",
-];
+const RELATED_GUIDES = PUBLIC_LIMITED_RELATED_GUIDES;
 
 function PublicGuideContent() {
   const { openContactModal } = useServicePage();

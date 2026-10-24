@@ -5,6 +5,7 @@ import ServicePageTemplate, {
   PricingPackage,
   useServicePage,
 } from "@/components/ServicePageTemplate";
+import { COMPANY_RELATED_GUIDES } from "@/components/CompanyGuideLayout";
 import {
   FileText,
   ShieldCheck,
@@ -291,14 +292,7 @@ const FORM_FEATURES = [
   },
 ];
 
-const RELATED_GUIDES = [
-  "Comprehensive Guide to Foreign Direct Investment (FDI) in India",
-  "How Foreign Companies Register an Indian Subsidiary via SPICe+",
-  "Apostille & Consular Legalization for Foreign Parent Company Documents",
-  "RBI FIRMS Portal: Entity Master & Form FC-GPR Filing Explained",
-  "Mandatory Resident Director Requirements under Companies Act 2013",
-  "Annual Foreign Liabilities and Assets (FLA) Return Compliance",
-];
+const RELATED_GUIDES = COMPANY_RELATED_GUIDES;
 
 function SubsidiaryGuideContent() {
   const { openContactModal } = useServicePage();

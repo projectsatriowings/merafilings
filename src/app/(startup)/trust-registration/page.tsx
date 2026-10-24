@@ -382,12 +382,26 @@ const FORM_FEATURES = [
 ];
 
 const RELATED_GUIDES = [
-  "Comprehensive Guide to Public Charitable Trust Registration in India",
-  "How to Register a Trust Deed with the Sub-Registrar: Step-by-Step",
-  "Section 12A and 80G Registration for Charitable & Religious Trusts",
-  "Differences Between Trust, Society, and Section 8 Non-Profit Company",
-  "NITI Aayog NGO Darpan Portal Registration for Government Grants",
-  "Income Tax Rules for Trusts: Form 10B/10BB Audit & ITR-7 Deadlines",
+  {
+    title: "Documents Required for Trust Registration",
+    href: "/trust-registration/trust-registration-required-documents-guide",
+  },
+  {
+    title: "How to Apply for Trust Registration: A Step-by-Step Guide",
+    href: "/trust-registration/how-to-apply-for-trust-registration-guide",
+  },
+  {
+    title: "Charitable Trust Registration: A Complete Guide",
+    href: "/trust-registration/charitable-trust-registration-a-complete-guide",
+  },
+  {
+    title: "Trust Registration Guide: Everything You Need to Know",
+    href: "/trust-registration/trust-registration-guide-what-you-need-to-know",
+  },
+  {
+    title: "Trust Registration Guide: Essential Steps",
+    href: "/trust-registration/trust-registration-guide-essential-steps",
+  },
 ];
 
 function TrustGuideContent() {

@@ -5,6 +5,7 @@ import ServicePageTemplate, {
   PricingPackage,
   useServicePage,
 } from "@/components/ServicePageTemplate";
+import { SECTION8_RELATED_GUIDES } from "@/components/Section8GuideLayout";
 import {
   FileText,
   ShieldCheck,
@@ -280,14 +281,7 @@ const FORM_FEATURES = [
   },
 ];
 
-const RELATED_GUIDES = [
-  "Comprehensive Guide to Incorporating a Section 8 Non-Profit Company",
-  "How to Obtain Section 12A & 80G Income Tax Registration for NGOs",
-  "CSR-1 Registration for Receiving Corporate Social Responsibility Funds",
-  "NITI Aayog NGO Darpan Portal Registration Process Explained",
-  "Differences Between Section 8 Company, Trust, and Society in India",
-  "Annual ROC Compliances for Section 8 Companies: Forms & Penalties",
-];
+const RELATED_GUIDES = SECTION8_RELATED_GUIDES;
 
 function Section8GuideContent() {
   const { openContactModal } = useServicePage();

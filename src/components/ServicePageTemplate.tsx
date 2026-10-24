@@ -2712,7 +2712,7 @@ export default function ServicePageTemplate({
                   <h4 className="font-semibold text-xs sm:text-[14px] text-slate-900 mb-4 uppercase tracking-wider text-slate-500">
                     {relatedGuidesTitle}
                   </h4>
-                  <ul className="space-y-2 text-xs sm:text-[13px]">
+                  <ul className="space-y-2 text-xs sm:text-[13px]" suppressHydrationWarning>
                     {relatedGuides.map((guide, idx) => {
                       const title = typeof guide === "string" ? guide : guide.title;
                       const href = typeof guide === "string" ? "#overview-section" : guide.href;
@@ -2723,17 +2723,21 @@ export default function ServicePageTemplate({
                           <span className="text-emerald-700 font-semibold group-hover:translate-x-1 shrink-0 text-sm leading-tight transition-transform duration-200 mt-0.5">
                             &rarr;
                           </span>
-                          <span className="line-clamp-2 leading-snug text-slate-800 group-hover:text-emerald-700 font-medium transition-colors">
+                          <span
+                            suppressHydrationWarning
+                            className="line-clamp-2 leading-snug text-slate-800 group-hover:text-emerald-700 font-medium transition-colors"
+                          >
                             {title}
                           </span>
                         </>
                       );
 
                       return (
-                        <li key={idx} className="border-b border-slate-100 pb-2.5 last:border-0 last:pb-0">
+                        <li key={idx} suppressHydrationWarning className="border-b border-slate-100 pb-2.5 last:border-0 last:pb-0">
                           {isExternal ? (
                             <a
                               href={href}
+                              suppressHydrationWarning
                               className="flex items-start gap-2.5 p-1.5 rounded-xl hover:bg-slate-50 transition-all duration-200 group hover:pl-2"
                             >
                               {linkContent}
@@ -2741,6 +2745,7 @@ export default function ServicePageTemplate({
                           ) : (
                             <Link
                               href={href}
+                              suppressHydrationWarning
                               className="flex items-start gap-2.5 p-1.5 rounded-xl hover:bg-slate-50 transition-all duration-200 group hover:pl-2"
                             >
                               {linkContent}

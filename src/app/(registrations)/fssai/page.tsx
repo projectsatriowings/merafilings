@@ -5,6 +5,7 @@ import ServicePageTemplate, {
   PricingPackage,
   useServicePage,
 } from "@/components/ServicePageTemplate";
+import { FSSAI_RELATED_GUIDES } from "@/components/FSSAIGuideLayout";
 import {
   FileText,
   ShieldCheck,
@@ -346,14 +347,7 @@ const PACKAGES: PricingPackage[] = [
   },
 ];
 
-const RELATED_GUIDES = [
-  "How to Check FSSAI License Number Online on FoSCoS Portal",
-  "Difference Between FSSAI Registration and State / Central License",
-  "Mandatory Labeling and Display Rules for Packaged Food Items",
-  "FSSAI Renewal Process: How to Avoid Penalties and Late Fees",
-  "Water Potability Testing Report Norms for Restaurants & Bakeries",
-  "FSSAI Annual Return Filing (Form D-1) Guidelines for Manufacturers",
-];
+const RELATED_GUIDES = FSSAI_RELATED_GUIDES;
 
 const RELATED_SERVICES_TAGS = [
   "Municipal Trade License",

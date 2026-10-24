@@ -5,6 +5,7 @@ import ServicePageTemplate, {
   PricingPackage,
   useServicePage,
 } from "@/components/ServicePageTemplate";
+import { STARTUP_INDIA_RELATED_GUIDES } from "@/components/StartupIndiaGuideLayout";
 import {
   FileText,
   ShieldCheck,
@@ -229,14 +230,7 @@ const FORM_FEATURES = [
   },
 ];
 
-const RELATED_GUIDES = [
-  "Understanding DPIIT Recognition for Startups in India",
-  "Section 80-IAC Income Tax Holiday: Eligibility & Application",
-  "Angel Tax Exemption: How Startups File Form 2",
-  "80% Patent Rebate & Fast-Track Examination for Startups",
-  "How to Register as a Startup on GeM Portal",
-  "Difference Between MCA Registration and DPIIT Startup Recognition",
-];
+const RELATED_GUIDES = STARTUP_INDIA_RELATED_GUIDES;
 
 function StartupGuideContent() {
   const { openContactModal } = useServicePage();

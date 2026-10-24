@@ -5,6 +5,7 @@ import ServicePageTemplate, {
   PricingPackage,
   useServicePage,
 } from "@/components/ServicePageTemplate";
+import { COMPANY_RELATED_GUIDES } from "@/components/CompanyGuideLayout";
 import {
   FileText,
   ShieldCheck,
@@ -297,14 +298,7 @@ const FORM_FEATURES = [
   },
 ];
 
-const RELATED_GUIDES = [
-  "Comprehensive Checklist for Private Limited Company Incorporation",
-  "Understanding SPICe+ Part A & Part B MCA Filing Process",
-  "Mandatory Post-Incorporation Compliances: INC-20A & ADT-1",
-  "Differences Between Private Limited, LLP, and OPC in India",
-  "Director Identification Number (DIN) & Class-3 DSC Guide",
-  "How to Open a Corporate Bank Account After Company Incorporation",
-];
+const RELATED_GUIDES = COMPANY_RELATED_GUIDES;
 
 function CompanyGuideContent() {
   const { openContactModal } = useServicePage();
